@@ -1,0 +1,1 @@
+# senerity-junit-samples
