@@ -7,6 +7,7 @@
 	<name>Sample Serenity JUnit project</name>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding> 
 		<!-- https://bintray.com/serenity/maven/serenity-core/ -->
 		<serenity.version>1.2.3-rc.5</serenity.version>
 		<serenity.maven.version>1.0.38</serenity.maven.version>

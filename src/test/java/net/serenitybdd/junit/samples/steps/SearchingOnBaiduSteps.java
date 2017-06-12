@@ -27,6 +27,10 @@ public class SearchingOnBaiduSteps  extends ScenarioSteps {
 	@Step
 	public void should_title_contain_keyvalue(String keyvalue)
 	{
-		assertThat(baiDuPage.getTitle()).contains(keyvalue);
+		System.out.println(baiDuPage.getTitle());
+		System.out.println(baiDuPage.toString());
+		//assertThat(baiDuPage.getTitle()).contains(keyvalue);
+		
+		assertThat(baiDuPage.containsText(keyvalue));
 	}
 }
